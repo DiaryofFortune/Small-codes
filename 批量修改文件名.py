@@ -2,7 +2,6 @@
 有些时候，就算命名格式写的非常清楚了，收到的文件命名也是五花八门。
 '''
 import os
-import re
 #如果想要在文件名中的xx位置插入xx分隔符，如将“20211108张三.docx”修改为“20211108 张三.docx”，则可以用到下面这个方法
 def str_insert(str_origin,pos,str_add):
     str_list=list(str_origin)
